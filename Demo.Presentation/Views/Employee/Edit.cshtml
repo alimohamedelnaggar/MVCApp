@@ -1,0 +1,73 @@
+﻿@model EmpViewModel
+
+@inject IDepartmentRepository _departmentRepository
+@{
+    var department = new SelectList(await _departmentRepository.GetAll(), "Id", "Name");
+}
+<h1>Edit</h1>
+
+<form asp-action="Edit" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Name" class="col-form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Age" class="col-form-label"></label>
+        <input asp-for="Age" class="form-control" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Address" class="col-form-label"></label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="col-form-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Salary" class="col-form-label"></label>
+        <input asp-for="Salary" class="form-control" />
+        <span asp-validation-for="Salary" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Phone" class="col-form-label"></label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input asp-for="IsActive" class="form-check" />
+        <label asp-for="IsActive" class="form-check"></label>
+        <span asp-validation-for="IsActive" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input asp-for="IsDeleted" class="form-check" />
+        <label asp-for="IsDeleted" class="form-check"></label>
+        <span asp-validation-for="IsDeleted" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="HireDate" class="col-form-label"></label>
+        <input asp-for="HireDate" class="form-control" />
+
+    </div>
+    <div class="form-group">
+        <label asp-for="DateOfCreation" class="col-form-label"></label>
+        <input asp-for="DateOfCreation" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Department" class="col-form-label"></label>
+        <select asp-for="DepartmentId" asp-items="@department" class="form-control">
+            <option value="@null">-- Select Department --</option>
+        </select>
+        <div class="form-group">
+            <label asp-for="Image" class="col-form-label"></label>
+            <input asp-for="Image" type="file" class="form-control" />
+        </div>
+        <input type="hidden" asp-for="ImageName" />
+    </div>
+    <input type="submit" value="Edit" class="btn btn-primary" />
+    <a asp-controller="Employee" asp-action="Index" class="btn btn-light">Back To List</a>
+
+</form>

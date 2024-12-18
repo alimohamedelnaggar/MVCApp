@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SoftLaptop\\source\\repos\\Demo MVC ALi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED0C777-036D-4744-B2AD-496548B1DEBF}|Demo.Presentation\\Demo.Presentation.csproj|c:\\users\\softlaptop\\source\\repos\\demo mvc ali\\demo.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED0C777-036D-4744-B2AD-496548B1DEBF}|Demo.Presentation\\Demo.Presentation.csproj|solutionrelative:demo.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED0C777-036D-4744-B2AD-496548B1DEBF}|Demo.Presentation\\Demo.Presentation.csproj|c:\\users\\softlaptop\\source\\repos\\demo mvc ali\\demo.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8ED0C777-036D-4744-B2AD-496548B1DEBF}|Demo.Presentation\\Demo.Presentation.csproj|solutionrelative:demo.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED0C777-036D-4744-B2AD-496548B1DEBF}|Demo.Presentation\\Demo.Presentation.csproj|c:\\users\\softlaptop\\source\\repos\\demo mvc ali\\demo.presentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8ED0C777-036D-4744-B2AD-496548B1DEBF}|Demo.Presentation\\Demo.Presentation.csproj|solutionrelative:demo.presentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED0C777-036D-4744-B2AD-496548B1DEBF}|Demo.Presentation\\Demo.Presentation.csproj|c:\\users\\softlaptop\\source\\repos\\demo mvc ali\\demo.presentation\\viewmodels\\empviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED0C777-036D-4744-B2AD-496548B1DEBF}|Demo.Presentation\\Demo.Presentation.csproj|solutionrelative:demo.presentation\\viewmodels\\empviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\source\\repos\\Demo MVC ALi\\Demo.Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Demo.Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\source\\repos\\Demo MVC ALi\\Demo.Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Demo.Presentation\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:10:42.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\source\\repos\\Demo MVC ALi\\Demo.Presentation\\ViewModels\\EmpViewModel.cs",
+              "RelativeDocumentMoniker": "Demo.Presentation\\ViewModels\\EmpViewModel.cs",
+              "ToolTip": "C:\\Users\\SoftLaptop\\source\\repos\\Demo MVC ALi\\Demo.Presentation\\ViewModels\\EmpViewModel.cs",
+              "RelativeToolTip": "Demo.Presentation\\ViewModels\\EmpViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T15:57:51.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\source\\repos\\Demo MVC ALi\\Demo.Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "Demo.Presentation\\appsettings.json",
+              "ToolTip": "C:\\Users\\SoftLaptop\\source\\repos\\Demo MVC ALi\\Demo.Presentation\\appsettings.json",
+              "RelativeToolTip": "Demo.Presentation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-18T15:48:36.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\SoftLaptop\\source\\repos\\Demo MVC ALi\\Demo.Presentation\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Demo.Presentation\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\SoftLaptop\\source\\repos\\Demo MVC ALi\\Demo.Presentation\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Demo.Presentation\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-18T15:48:35.704Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
